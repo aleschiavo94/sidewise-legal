@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sidewise · Informativa sulla privacy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="brand"><a href="index.html">Sidewise</a></p>
+<h1>Informativa sulla privacy</h1>
+<p class="meta">Ultimo aggiornamento: 19 novembre 2026</p>
+
+<h2>Chi è il titolare</h2>
+<p>Sidewise è sviluppata e gestita da <strong>Alessio Schiavo</strong>, persona fisica, Livorno, Italia.
+Per qualsiasi domanda sulla privacy o per esercitare i tuoi diritti scrivi a
+<a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+<h2>In breve</h2>
+<ul>
+<li>Sidewise è un registro delle spese di casa. <strong>I tuoi dati restano sul tuo telefono</strong> finché non scegli di condividerli con un'altra persona del tuo nucleo.</li>
+<li><strong>Non vendiamo dati, non mostriamo pubblicità e non usiamo strumenti di tracciamento o analisi d'uso.</strong></li>
+<li>Se colleghi la banca, Sidewise <strong>legge soltanto</strong> i movimenti e i saldi: non può disporre pagamenti.</li>
+</ul>
+
+<h2>Quali dati trattiamo e perché</h2>
+<h3>1. Dati che restano sul telefono</h3>
+<p>Se usi Sidewise senza account, tutto rimane sul dispositivo in un database locale:</p>
+<ul>
+<li>spese, entrate, giroconti, spese fisse, obiettivi di risparmio e categorie;</li>
+<li>i nomi dei membri del nucleo che inserisci;</li>
+<li>le impostazioni dell'app.</li>
+</ul>
+<p>Non ci arriva nulla. Se disinstalli l'app, questi dati vengono cancellati con essa, salvo il backup del tuo telefono (vedi "Backup").</p>
+
+<h3>2. Account e condivisione tra telefoni (facoltativi)</h3>
+<p>Se crei un account per usare lo stesso registro su più telefoni:</p>
+<ul>
+<li><strong>Indirizzo email:</strong> serve ad accedere con un codice monouso. Lo gestisce Supabase, il nostro fornitore di autenticazione.</li>
+<li><strong>I dati del registro condiviso</strong> (spese, entrate, conti, spese fisse, obiettivi, movimenti bancari da confermare) vengono salvati sul nostro server, così che arrivino agli altri telefoni del nucleo.</li>
+<li><strong>Base giuridica:</strong> l'esecuzione del servizio che hai chiesto (art. 6.1.b GDPR).</li>
+</ul>
+<p>Le spese che segni come <strong>private</strong> contano nei totali, ma gli altri membri non ne vedono i dettagli.</p>
+
+<h3>3. Collegamento con la banca (facoltativo)</h3>
+<p>Sidewise può leggere i movimenti del tuo conto attraverso servizi autorizzati dalla direttiva europea PSD2:</p>
+<ul>
+<li><strong>open-banking.io (Tatic ApS, Danimarca):</strong> apri tu un account personale presso di loro e dai il consenso alla tua banca. Le credenziali di accesso che importi in Sidewise restano <strong>solo sul tuo telefono</strong>, cifrate con una chiave custodita dal sistema operativo. I movimenti vengono scaricati e decifrati direttamente sul telefono.</li>
+<li><strong>Enable Banking (Enable Banking Oy, Finlandia):</strong> se usi questa via in un nucleo condiviso, il collegamento è gestito dal nostro server, che legge i movimenti per conto tuo e li propone nell'app.</li>
+</ul>
+<p>Sidewise non vede né conserva mai le credenziali della tua home banking: l'autorizzazione avviene sul sito o nell'app della tua banca. Il consenso dura al massimo 180 giorni e puoi revocarlo in qualsiasi momento dall'app o dalla banca.
+<strong>Base giuridica:</strong> il tuo consenso e l'esecuzione del servizio.</p>
+
+<h3>4. Funzioni del telefono</h3>
+<ul>
+<li><strong>Microfono (dettatura di una spesa):</strong> usa il riconoscimento vocale del telefono, preferendo quello offline. Se il telefono non lo supporta, il servizio di riconoscimento del sistema (per esempio Google) può elaborare l'audio secondo la propria informativa. Sidewise non registra né conserva l'audio.</li>
+<li><strong>Fotocamera e foto (lettura di uno scontrino):</strong> il testo viene letto <strong>sul telefono</strong> con Google ML Kit. La foto non viene inviata a noi.</li>
+<li><strong>Notifiche:</strong> gli avvisi (scadenze, nuovi movimenti, riepilogo) sono calcolati sul telefono. Sullo schermo bloccato non mostrano importi.</li>
+<li><strong>Impronta o volto:</strong> usati solo dal sistema operativo per sbloccare l'app. Sidewise non riceve dati biometrici.</li>
+</ul>
+
+<h2>Dove sono i dati e chi li tratta per noi</h2>
+<div class="table">
+<table>
+<thead><tr><th>Fornitore</th><th>Cosa fa</th><th>Dove</th></tr></thead>
+<tbody>
+<tr><td>Supabase Inc.</td><td>Accesso con email, database del registro condiviso</td><td>Unione Europea (Francoforte)</td></tr>
+<tr><td>Scaleway SAS</td><td>Server dell'app</td><td>Francia (Parigi)</td></tr>
+<tr><td>Tatic ApS (open-banking.io)</td><td>Accesso ai conti, su tuo incarico diretto</td><td>Unione Europea</td></tr>
+<tr><td>Enable Banking Oy</td><td>Accesso ai conti per i nuclei condivisi</td><td>Unione Europea</td></tr>
+<tr><td>Google (Gmail)</td><td>Invio dei codici di accesso, tramite Supabase</td><td>Unione Europea e Stati Uniti</td></tr>
+</tbody>
+</table>
+</div>
+<p>I dati condivisi viaggiano cifrati (HTTPS). Non trasferiamo dati fuori dallo Spazio economico europeo, salvo quanto indicato sopra.</p>
+
+<h2>Per quanto tempo</h2>
+<ul>
+<li><strong>Dati sul telefono:</strong> finché non li cancelli o disinstalli l'app.</li>
+<li><strong>Account e registro condiviso:</strong> finché l'account è attivo. Quando chiedi la cancellazione, li eliminiamo entro 30 giorni. Le eventuali copie di backup del database si sovrascrivono entro 7 giorni.</li>
+<li><strong>Movimenti bancari scartati:</strong> ne conserviamo solo un riferimento tecnico, per non riproporteli.</li>
+</ul>
+
+<h2>Backup</h2>
+<p>Il database locale può essere incluso nel backup del tuo telefono (per esempio Google Drive), se lo hai attivato. Le credenziali della banca non sono recuperabili da un backup, perché la loro chiave resta legata al dispositivo.</p>
+
+<h2>I tuoi diritti</h2>
+<p>Puoi chiedere in qualsiasi momento di accedere ai tuoi dati, correggerli, cancellarli, limitarne il trattamento, riceverli in un formato portabile o opporti al trattamento. Scrivi a <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+<ul>
+<li><strong>Eliminare l'account:</strong> dall'app, in <strong>Impostazioni › Condivisione › Elimina account</strong>, oppure seguendo la pagina <a href="delete-account.html">Eliminare l'account</a>. Cancelliamo subito l'accesso, l'email e i collegamenti bancari, e revochiamo i consensi. Il registro condiviso viene cancellato se nessun altro membro lo usa; altrimenti resta a chi continua a usarlo, perché è anche suo.</li>
+<li><strong>Reclami:</strong> puoi rivolgerti al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it">www.garanteprivacy.it</a>).</li>
+</ul>
+
+<h2>Minori</h2>
+<p>Sidewise non è pensata per persone sotto i 18 anni.</p>
+
+<h2>Modifiche</h2>
+<p>Se cambiamo questa informativa in modo rilevante, te lo diremo nell'app prima che le modifiche abbiano effetto.</p>
+</main>
+</body>
+</html>
